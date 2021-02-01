@@ -1,0 +1,440 @@
+*{padding: 0;
+  margin: 0;
+ }
+
+body { 
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+         }
+         
+/*NAV CSS*/
+     
+nav      { 
+           position: relative; 
+           background-color: rgba(0,0,0,0.4);
+           position: sticky;
+           font-size: 80%; 
+           color: #fff;
+           padding: 2.5em 0 2.5em 0;
+           text-align:right;
+           top:0;
+           z-index:100;
+           width:100%;
+           min-height: 5%;
+         }   
+        
+nav li   { padding-left: 40px;
+           list-style: none; 
+           display: inline;
+           color:#fff;
+         }
+
+nav a:link {
+            color: #fff;
+            text-decoration: none;
+           }
+           
+nav a:visited {color:#fff;} 
+                                 
+nav a:hover {
+             color: #00ccff;
+             text-decoration: none;
+            }
+            
+            
+.logo { 
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+            
+       }
+       
+.imgC  {
+        
+                        background: URL('Images/lounge2.jpg') center no-repeat;
+                       background-size:cover;
+                        display:flex;
+                        flex-direction: column;
+                       align-items: center;
+                       text-align:center;
+                       width:100%;
+                       min-height: 800px;
+                       margin-top:-7em;
+                       
+       
+       }
+       
+.marginFix{margin:auto;}
+    
+.imgText{
+        
+         
+         font-size: 2em;
+         background-color: rgba(0,0,0,0.4);
+         color: rgba(255,255,255,1);
+         
+        }  
+        
+.Swift{        
+               color: rgba(255,255,255,0.6);
+               font-size: 8em;
+               
+               }
+               
+.Swift:hover{color: rgba(255,255,255,1);
+             transition: ease-in-out 0.8s;
+             
+}
+         
+         
+/*END NAV CSS*/
+
+
+
+/*Services CSS*/
+
+
+.Services {   
+                font-size: 2em;
+                font-family: Georgia,serif;
+                letter-spacing: 2px;
+                padding: 1em;
+                text-align: center;
+                
+                }
+.ServicesBackground{ 
+                background: -webkit-linear-gradient( #fff, #d3d3d3);
+                   }
+                
+
+                    
+#showcaseContainer {  
+                margin-top:20px;
+                   }
+
+.showcase{   
+               display: flex;
+               flex-direction: row; 
+               justify-content: center;
+               max-height: 100%;
+               overflow:hidden; 
+               align-items: stretch;   
+         }
+
+#showcaseContainer .box{   padding: 10px;
+                           text-align: center;
+                           color: #535353;
+                           font-size: 18px;
+                       }
+.box a {text-decoration:none;
+}
+
+.box a:visited{color: #535353;}
+
+.box a:link{color: #535353;}
+
+.box a:hover{color: #00ccff;}
+
+
+.box h3{font-size: 23px;
+font-weight: bold;}                    
+
+.showcase img { max-width: 100%;
+                margin: 12px;
+                border-radius: 5px;
+                box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.5); 
+                height: 50%;
+               }
+                   
+ /*END Services CSS*/                
+
+
+ /*GetInTouch CSS*/
+ 
+ 
+
+.GetInTouch { 
+              background: #fff;
+              color: #808080;
+              padding: 20px;
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+            } 
+
+ .h1Get{ text-align: center; 
+         padding: 20px;
+       }
+              
+.GetInTouch .items {width: 205px;
+                    text-transform: uppercase;
+                    margin: auto;
+                    padding: 5px;
+                    text-align: center;
+                   
+                    }
+
+.GetInTouch .items img { border-radius: 20%;
+                         border: 1px solid #fff;
+                         box-shadow: rgba(155,155,155,1) 0 3px 11px;
+                         width: 205px;
+                         margin-bottom:10px;
+                         }
+                         
+  /*END GetInTouch CSS*/
+  
+ 
+ 
+ 
+ /*Footer CSS*/ 
+ 
+           
+footer
+{   
+                display: block;
+                width: 100%;
+                background: #000;
+                overflow:hidden;
+    
+    }    
+    
+.innerFooter{ 
+               display: flex;
+               width: 95%;
+               flex-wrap: wrap;
+               margin:auto;
+               padding: 25px 8px;
+               
+             }  
+              
+
+.footerContent{ 
+                justify-content:center;
+                padding: 12px 18px;
+                width:22%;
+                box-sizing: border-box;
+               } 
+               
+.footerContentLinks{ 
+                justify-content:center;
+                padding: 12px 18px;
+                width:22%;
+                box-sizing: border-box;
+               } 
+               
+                
+footer h1 { 
+            font-family:courier, arial, sans-serif;
+            padding:10px 0;
+            font-size: 35px;
+            color:#fff;
+            
+            }
+                    
+footer h2 { 
+ 
+            color:#808080;
+            margin-top: 12px;
+            margin-bottom: 12px;
+            font-size: 18px;
+            
+            
+            }
+.footerContent p { 
+                  color: #808080;
+                  font-size: 17px;
+                  text-align: left;
+                  line-height: 22px;
+                  }
+
+
+ footer ul { list-style: none;
+            color:#fff;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+            
+            }
+            
+footer ul a{
+              text-decoration: none;
+              outline: none;
+              color: #fff;
+              
+              }
+footer ul a:hover{
+                    color: #00ccff;
+                    text-decoration: none;
+                 }
+                    
+footer ul li { 
+               padding: 10px 0;
+               height: 25px;
+             }
+                           
+   .StayInTouchContent{ 
+               justify-content:center;
+               padding: 12px 18px;
+               width:32%;
+               box-sizing: border-box;
+                
+                  }
+.StayInTouch { 
+               display: flex; 
+               flex-wrap: wrap;
+               align-items: center;
+               justify-content: center;
+             }
+             
+.input{ 
+         min-width: 150px;
+         outline: none;
+         background: #fff;
+         font-size: 16px;
+         flex: 1;
+         padding: 16px 35px;
+         color: #808080;
+         border: none;
+         border-radius: 28px;
+        
+         }
+
+ .sub{ 
+      font-size: 16px;
+      margin-left: 15px;
+      padding: 16px 35px; 
+      outline: none;
+      font-weight: bold;
+      color: #808080;
+      background: #c9c9c9;
+      border: none;
+      border-radius: 28px;
+      
+      }
+  
+  .sub:hover{background: #00ccff;}
+      
+
+      
+
+.Copyright { 
+             text-align:center;
+             background: #808080;
+             padding: 15px;
+             color: #fff;
+             font-size: 15.5px;
+            
+           }
+.items >:hover{ color: #00ccff;}
+
+.fb-page{ 
+           margin-top:30px;
+           }
+
+/*END Footer CSS*/
+
+
+
+
+ /* REVIEWS CSS */
+ 
+ 
+ 
+ 
+.Reviews{
+         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+         justify-content: space-between;
+         background: #e8e8e8;
+         width: 100%;
+         min-height: 300px;
+         color: #232323;
+         
+            }
+            
+.ReviewsTextL{ 
+                 font-size: 30px;
+                 padding: 25px;
+                 font-style: oblique;
+               
+                
+                    }  
+.ReviewsTextR {   
+                 font-size: 30px;
+                 padding: 25px;
+                 font-style: oblique;
+                
+
+                  }
+.h1Rev{ 
+         padding: 20px;
+         text-align: center;
+         color: #454545;
+         background: #e8e8e8;
+         }
+         
+         
+/*END REVIEWS CSS*/
+             
+
+             
+
+
+   @media (max-width:575px)
+{
+ .footerContentLinks{display:none;}
+  .imgC  { background: URL('Images/lounge2-575px.jpg') center no-repeat;
+    }
+  
+}
+
+ @media (max-width: 768px)
+{
+         .footerContent{width:100%;}
+         .Swift{        
+                 font-size: 6em;
+               }
+    .StayInTouchContent{  display: none;}
+                  
+       .imgC  { background: URL('Images/lounge2-768px.jpg') center no-repeat;}
+    
+         
+}
+
+ @media (max-width: 992px) 
+{
+     .footerContent{width:100%;}
+  
+              
+
+   
+}
+
+ @media (max-width: 1200px)
+{   .input{ 
+         min-width: 100px;
+         background: #fff;
+         font-size: 13.6px;
+         flex: 1;
+         padding: 10px 25px; }
+         
+    .imgC  { background: URL('Images/lounge2-1200px.jpg') center no-repeat;
+    }
+     
+      .sub{ 
+      font-size: 13px;
+      padding: 10px 25px; 
+      
+      }
+   .footerContent{width:60%;}           
+    .imgText{display:none;}
+    .showcase{flex-wrap:wrap;}
+    
+}
+
+
+
+    
+
